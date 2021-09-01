@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Sensor } from '../lib/Sensor';
+import { Sensor } from '../../lib/Sensor';
 
 type ClimateProps = { sensor: Sensor };
 

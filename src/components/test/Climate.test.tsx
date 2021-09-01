@@ -1,8 +1,8 @@
 import React from 'react'
 import { render } from '@testing-library/react';
 
-import { testSensor } from '../lib/Sensor';
-import Climate from './Climate';
+import { testSensor } from '../../lib/Sensor';
+import Climate from '../climate/Climate';
 
 describe('Climate component', () => {
     it('shows the current temperature', async () => {
